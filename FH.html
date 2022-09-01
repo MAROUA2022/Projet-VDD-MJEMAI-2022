@@ -1,0 +1,215 @@
+<head>
+  <!-- Load plotly.js into the DOM -->
+  <script src='https://cdn.plot.ly/plotly-2.14.0.min.js'></script>
+      <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/monokai.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>graph</title>
+</head>
+
+<body>
+
+  <div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+   
+</body>
+<script
+      src="http://code.jquery.com/jquery-3.3.1.slim.js"
+      integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Modules/jquery.csv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+<script type="text/javascript">
+
+
+
+
+var trace1 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [73, 75, 63, 56, 72, 70, 61, 78, 70, 58, 68, 93],
+  type: 'bar',
+  name: 'Maladies infectieuses',
+  marker: {
+    color: 'rgb(255, 191, 0)',
+    opacity: 0.7,
+  }
+};
+
+var trace2 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [0, 0, 557, 1333, 145, 22, 22, 34, 77, 571, 3162, 3382],
+  type: 'bar',
+  name: 'Covid-19',
+  marker: {
+    color: 'rgb(255, 64, 0)',
+    
+  }
+};
+
+var trace3 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [1461, 1369, 1493,1293, 1372,1331,1408,1370,1345, 1451,1312,1375],
+  type: 'bar',
+  name: 'Tumeurs malignes',
+  marker: {
+    color: 'rgb(0, 0, 255)'
+    
+  }
+};
+
+var trace4 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [112, 81, 80, 100, 66,79,74,57, 83, 89, 94, 94],
+  type: 'bar',
+  name: 'Diabète sucré',
+  marker: {
+    color: 'green'
+    
+  }
+};
+
+var trace5 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [651,553, 608,550,414, 440,442,542,489, 570,619, 653],
+  type: 'bar',
+  name: 'Démence',
+  marker: {
+    color: 'yellow'
+    
+  }
+};
+
+var trace4 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [1861, 1751, 1912, 1689, 1548, 1444,1509, 1528, 1570, 1724, 1874, 2059],
+  type: 'bar',
+  name: 'Appareil circulatoire',
+  marker: {
+    color: 'rgb(64, 255, 0)'
+    
+  }
+};
+
+var trace5 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [420,428,456, 291,210,252,260, 257, 265, 271,290, 354],
+  type: 'bar',
+  name: 'Appareil respiratoire',
+  marker: {
+    color: 'rgb(128, 128, 128)'
+    
+  }
+};
+
+var trace6 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [41, 33, 24, 26, 27,29, 32, 37, 23, 36, 42, 35],
+  type: 'bar',
+  name: 'Cirrhose du foie alcoolique',
+  marker: {
+    color: 'rgb(255, 0, 255)'
+    
+  }
+};
+
+var trace7 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [122, 111,133, 105,113,82,112,113, 86,107,133, 116],
+  type: 'bar',
+  name: 'Organes urinaires',
+  marker: {
+    color: 'purple'
+    
+  }
+};
+
+var trace8 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [26, 23, 16,23, 11, 16, 26, 17,25, 15, 19, 21],
+  type: 'bar',
+  name: 'Anomalies congénitales',
+  marker: {
+    color: '  rgb(255, 128, 0)'
+    
+  }
+};
+
+var trace9 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [7, 11, 14, 13, 16, 18, 5, 11, 22, 15, 9, 11],
+  type: 'bar',
+  name: 'Causes de mortalité périnatale',
+  marker: {
+    color: 'black'
+    
+  }
+};
+
+var trace10 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [349, 296, 334, 329, 305, 310, 320, 309,325,293, 330, 324],
+  type: 'bar',
+  name: 'Accidents et traumatismes',
+  marker: {
+    color: 'yellow'
+    
+  }
+};
+
+
+var data = [trace1, trace2,trace3,trace4,trace5,trace6,trace7,trace8,trace9,trace10];
+
+var layout = {
+  title: 'Les Statistiques Par Homme & Femme:',
+  xaxis: {
+    tickangle: -45
+  },
+  barmode: 'group'
+};
+
+Plotly.newPlot('myDiv', data, layout);
+
+
+</script>
+<body>
+ <a href="homme.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Homme
+    </a>
+    <a href="femme.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Femme
+    </a>
+            <a href="FH.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Femme & Homme
+    </a>
+    <a href="total.html">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Total
+    </a>
+
+    </body>
