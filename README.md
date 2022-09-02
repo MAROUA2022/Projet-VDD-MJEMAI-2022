@@ -1,5 +1,5 @@
-# Projet-MJEMAI-2022
-                                                Visualisation surmortalité 2020 en Suisse 
+# Projet VDD MJEMAI-2022
+                                                Visualisation surmortalité 2020 en Suisse  
 
 
 
