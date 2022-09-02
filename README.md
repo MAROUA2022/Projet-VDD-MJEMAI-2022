@@ -7,6 +7,7 @@ Ce projet entre dans le cadre de la validation des crédits relatif au cours de 
 ________________________________________
 Descriptif
 
+
 La majorité des décès se répartissent entre un nombre restreint de causes : maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents, actes de violence et démence. Depuis le début de la pandémie de SARS-CoV-2, des phases de surmortalité notable a été enregistrée en Suisse au printemps et en automne 2020. 
 Sur la base des données de l’OFS, la visualisation d’histogrammes répartissant les nombres des décès par mois et par cause, mettra en exergue la pandémie. La visualisation d’un « Pie Chart » axé sur le nombre des décès dont la cause principale est le Covid-19 relève dans cette cause des décès la part des maladies concomitantes. 
 
