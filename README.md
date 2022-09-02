@@ -10,7 +10,7 @@ Descriptif
 
 La majorité des décès se répartissent entre un nombre restreint de causes : maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents, actes de violence et démence. Depuis le début de la pandémie de SARS-CoV-2, des phases de surmortalité notable a été enregistrée en Suisse au printemps et en automne 2020. 
 Sur la base des données de l’OFS, la visualisation d’histogrammes répartissant les nombres des décès par mois et par cause, mettra en exergue la pandémie. La visualisation d’un « Pie Chart » axé sur le nombre des décès dont la cause principale est le Covid-19 relève dans cette cause des décès la part des maladies concomitantes. 
-
+________________________________________
 Etape du projet
 
 Mon projet s’est construit sur base des étapes suivantes : 
@@ -27,10 +27,12 @@ Les données sont issues de l’Office Fédéral de la Statistique (OFS)
 
   https://dam-api.bfs.admin.ch/hub/api/dam/assets/22984034/master
 
+________________________________________
 2.	Traitement des données :
 
 Les données de décès sont réparties en 3 fichiers Excel (Homme, Femme, Total) et converties en .csv afin de faciliter le traitement avec Phyton (transposition des données et sélection des causes de décès principales).  
 
+________________________________________
 3.	Langage de programmation :
 
 La génération de la visualisation a été réalisée en HTML servant à ajouter du sens au contenu brut en le balisant, en CSS pour le design et le formatage du contenu balisé et en JavaScript pour rendre mon contenu et mon formatage interactif et dynamique. 
