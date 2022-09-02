@@ -19,10 +19,12 @@ Mon projet s’est construit sur base des étapes suivantes :
 Les données sont issues de l’Office Fédéral de la Statistique (OFS) 
 
 •	Nombre de décès selon la cause principale avec le COVID-19 comme maladie concomitante (mal. conc.), par mois, selon le sexe :
-	https://dam-api.bfs.admin.ch/hub/api/dam/assets/22984038/master
 
-•	Maladies concomitantes pour les décès dont le COVID-19 est la cause principale, par mois, selon le sexe : 	
-	https://dam-api.bfs.admin.ch/hub/api/dam/assets/22984034/master
+  https://dam-api.bfs.admin.ch/hub/api/dam/assets/22984038/master
+
+•	Maladies concomitantes pour les décès dont le COVID-19 est la cause principale, par mois, selon le sexe :
+
+  https://dam-api.bfs.admin.ch/hub/api/dam/assets/22984034/master
 
 2.	Traitement des données :
 
