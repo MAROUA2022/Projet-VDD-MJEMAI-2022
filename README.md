@@ -4,13 +4,13 @@
 
 
 Ce projet entre dans le cadre de la validation des crédits relatif au cours de Visualisation de données, dispensé par Monsieur Issac Pante, maître d'enseignement et de recherche en culture et édition numérique à la Faculté des lettres de l'université de Lausanne.
-________________________________________
+
 # Descriptif
 
 
 La majorité des décès se répartissent entre un nombre restreint de causes : maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents, actes de violence et démence. Depuis le début de la pandémie de SARS-CoV-2, des phases de surmortalité notable a été enregistrée en Suisse au printemps et en automne 2020. 
 Sur la base des données de l’OFS, la visualisation d’histogrammes répartissant les nombres des décès par mois et par cause, mettra en exergue la pandémie. La visualisation d’un « Pie Chart » axé sur le nombre des décès dont la cause principale est le Covid-19 relève dans cette cause des décès la part des maladies concomitantes. 
-________________________________________
+
 # Etape du projet
 
 Mon projet s’est construit sur base des étapes suivantes : 
@@ -47,3 +47,6 @@ Cette visualisation démontre aisément en termes d’analyses des données, l�
  
 L’effet du confinement très efficace pour les maladies infectieuses a réduit drastiquement les décès par Covid-19, la surmortalité en automne et fin 2020 démontre la saisonnalité de la pandémie et l’apparition des nouveaux variant. 
 L’analyse du Pie Chart démontre que 96% des décès Covid19 sont souvent associés à des maladies concomitantes. 
+
+En conclusion, cette visualisation s’adresse à toute personne intéressée par l’analyse des effets de la pandémie sur la mortalité et en générale connaitre les causes principales du décès. Elle peut être complété par une vision par canton et par classe d’âge. 
+Ce projet a été une expérience très enrichissante pour moi en termes de traitement de données et de programmation. Rendre le contenu dynamique a été complexe mais indispensable pour la clarté de la visualisation et au-delà des graphiques illustrant l’objectif de ce projet, la vérification des structures de données reste l’étape importante de début jusqu’à la fin pour assurer la fiabilité du message véhiculé à travers de cette visualisation.
