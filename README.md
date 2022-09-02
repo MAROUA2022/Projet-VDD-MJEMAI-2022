@@ -41,9 +41,9 @@ En matière de design et d’interactivité, il a été nécessaire d’identifi
 
 # Visualisation et conclusion
  
-
-Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition des causes classiques des décès (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) reste homogène tout au long de l’année 2020.  
  ![NB décès Homme](https://user-images.githubusercontent.com/104840450/188247145-6977c13c-225b-4a56-92fb-5c6a5cc433d8.png)
+Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition des causes classiques des décès (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) reste homogène tout au long de l’année 2020.  
+
 
 L’effet du confinement très efficace pour les maladies infectieuses a réduit drastiquement les décès par Covid-19, la surmortalité en automne et fin 2020 démontre la saisonnalité de la pandémie et l’apparition des nouveaux variant. 
 L’analyse du Pie Chart démontre que 96% des décès Covid19 sont souvent associés à des maladies concomitantes. 
