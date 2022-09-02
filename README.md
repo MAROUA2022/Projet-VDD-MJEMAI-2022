@@ -40,7 +40,7 @@ Pour naviguer entre ces deux types de visualisation, un menu a été intégré p
 
 En matière de design et d’interactivité, il a été nécessaire d’identifier chaque cause de décès par un code couleur pour voir la variation mois par mois. En plus des indications des seuils de valeurs dans l’axe verticale de l’histogramme, le rendu visuel a été dynamisé par un curseur interactif pour afficher le nombre de décès pour chaque maladie selon le mois choisi. Le curseur permet aussi de cocher/décocher les maladies à afficher afin de mieux visualiser la cause de décès sur une année complète de janvier à décembre.
 
-Visualisation et conclusion
+# Visualisation et conclusion
  
 
 Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition des causes classiques des décès (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) reste homogène tout au long de l’année 2020.  
