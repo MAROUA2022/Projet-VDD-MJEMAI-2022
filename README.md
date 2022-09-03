@@ -32,7 +32,7 @@ Les données sont issues de l’Office Fédéral de la Statistique (OFS)
 Les données de décès sont réparties en 3 fichiers Excel (Homme, Femme, Total) et converties en .csv afin de faciliter le traitement avec Phyton (transposition des données et sélection des causes de décès principales).  
 
 3.	Langage de programmation :
-4.	
+
 La génération de la visualisation a été réalisée en HTML servant à ajouter du sens au contenu brut en le balisant, en CSS pour le design et le formatage du contenu balisé et en JavaScript pour rendre mon contenu et mon formatage interactif et dynamique. 
 
 Dans mon projet de visualisation, deux types de graphiques ont été choisis : Histogramme et Diagramme circulaire (Pie Chart). 
