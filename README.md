@@ -42,6 +42,7 @@ En matière de design et d’interactivité, il a été nécessaire d’identifi
 
 
 # Visualisation et conclusion
+
  
  ![NB décès Homme](https://user-images.githubusercontent.com/104840450/188247145-6977c13c-225b-4a56-92fb-5c6a5cc433d8.png)
 Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition en nombre des causes classiques des décès hors Covid-19 (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) a été homogène tout au long de l’année 2020.    
