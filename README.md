@@ -47,6 +47,7 @@ En matière de design et d’interactivité, il a été nécessaire d’identifi
  ![NB décès Homme](https://user-images.githubusercontent.com/104840450/188247145-6977c13c-225b-4a56-92fb-5c6a5cc433d8.png)
 Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition en nombre des causes classiques des décès hors Covid-19 (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) a été homogène tout au long de l’année 2020.    
 
+![NB décès par cause 2020](https://user-images.githubusercontent.com/104840450/188248414-97e6c8c5-3151-439f-8d41-c817b355211a.png)
 
 L’effet du confinement très efficace pour les maladies infectieuses a réduit drastiquement les décès Covid-19, la surmortalité en automne et fin 2020 démontre la saisonnalité de la pandémie et l’apparition de nouveaux variants. 
 
