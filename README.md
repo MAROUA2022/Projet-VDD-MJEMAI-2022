@@ -44,13 +44,18 @@ En matière de design et d’interactivité, il a été nécessaire d’identifi
 # Visualisation et conclusion
  
 ![NB décès Homme](https://user-images.githubusercontent.com/104840450/188247145-6977c13c-225b-4a56-92fb-5c6a5cc433d8.png)
-Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition en nombre des causes classiques des décès hors Covid-19 (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) a été homogène tout au long de l’année 2020.    
-![NB décès par cause 2020](https://user-images.githubusercontent.com/104840450/188248414-97e6c8c5-3151-439f-8d41-c817b355211a.png)
+
+Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition en nombre des causes classiques des décès hors Covid-19 (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) a été homogène tout au long de l’année 2020.   
 L’effet du confinement très efficace pour les maladies infectieuses a réduit drastiquement les décès Covid-19, la surmortalité en automne et fin 2020 démontre la saisonnalité de la pandémie et l’apparition de nouveaux variants. 
+
+![NB décès par cause 2020](https://user-images.githubusercontent.com/104840450/188248414-97e6c8c5-3151-439f-8d41-c817b355211a.png)
+
 
 L’analyse du Pie Chart démontre que 96% des décès Covid19 sont associés à des maladies concomitantes. 
 
 ![Pie Chart](https://user-images.githubusercontent.com/104840450/188248471-a5dfff6c-3020-48f7-8928-f060109ecd2c.png)
+
 En conclusion, cette visualisation s’adresse à toute personne intéressée par l’analyse des effets de la pandémie sur la mortalité et plus généralement elle permet d’identifier les causes principales des décès en Suisse. Pour aller plus loin dans ce projet, cette visualisation peut être complétée par une vision par canton et par classe d’âge. 
+
 Ce projet a été une expérience très enrichissante pour moi en termes de traitement de données et de programmation. Rendre le contenu dynamique a été complexe mais indispensable pour la clarté de la visualisation et au-delà des graphiques illustrant l’objectif de ce projet, la vérification des structures de données reste l’étape importante de début jusqu’à la fin pour assurer la fiabilité du message véhiculé à travers de cette visualisation.
 
