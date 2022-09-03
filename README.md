@@ -1,10 +1,11 @@
- # Visualisation surmortalité 2020 en Suisse  
+# Visualisation surmortalité 2020 en Suisse  
 
-
-
+_______________________________________________________________________________________________________________________________________________________________________
 Ce projet entre dans le cadre de la validation des crédits relatif au cours de Visualisation de données, dispensé par Monsieur Issac Pante, maître d'enseignement et de recherche en culture et édition numérique à la Faculté des lettres de l'université de Lausanne.
+_______________________________________________________________________________________________________________________________________________________________________
 
-# # Descriptif
+
+# Descriptif
 
 
 La majorité des décès se répartissent entre un nombre restreint de causes : maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents, actes de violence et démence. Depuis le début de la pandémie de SARS-CoV-2, des phases de surmortalité notables ont été enregistrées en Suisse au printemps et en automne 2020. 
