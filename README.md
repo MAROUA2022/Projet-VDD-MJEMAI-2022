@@ -7,12 +7,13 @@ Ce projet entre dans le cadre de la validation des crédits relatif au cours de 
 # Descriptif
 
 
-La majorité des décès se répartissent entre un nombre restreint de causes : maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents, actes de violence et démence. Depuis le début de la pandémie de SARS-CoV-2, des phases de surmortalité notable a été enregistrée en Suisse au printemps et en automne 2020. 
-Sur la base des données de l’OFS, la visualisation d’histogrammes répartissant les nombres des décès par mois et par cause, mettra en exergue la pandémie. La visualisation d’un « Pie Chart » axé sur le nombre des décès dont la cause principale est le Covid-19 relève dans cette cause des décès la part des maladies concomitantes. 
+La majorité des décès se répartissent entre un nombre restreint de causes : maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents, actes de violence et démence. Depuis le début de la pandémie de SARS-CoV-2, des phases de surmortalité notables ont été enregistrées en Suisse au printemps et en automne 2020. 
+Sur la base des données de l’OFS, la visualisation d’histogrammes répartissant les nombres des décès par mois et par cause, mettra en exergue la pandémie. La visualisation d’un « Pie Chart » axé sur le nombre des décès dont la cause principale est le Covid-19 montre le poids des maladies concomitantes à ces décès. 
+ 
 
 # Etape du projet
 
-Mon projet s’est construit sur base des étapes suivantes : 
+Mon projet s’est construit sur la base des étapes suivantes : 
 
 1.	Source des données :
 
@@ -31,22 +32,26 @@ Les données sont issues de l’Office Fédéral de la Statistique (OFS)
 Les données de décès sont réparties en 3 fichiers Excel (Homme, Femme, Total) et converties en .csv afin de faciliter le traitement avec Phyton (transposition des données et sélection des causes de décès principales).  
 
 3.	Langage de programmation :
-
+4.	
 La génération de la visualisation a été réalisée en HTML servant à ajouter du sens au contenu brut en le balisant, en CSS pour le design et le formatage du contenu balisé et en JavaScript pour rendre mon contenu et mon formatage interactif et dynamique. 
 
 Dans mon projet de visualisation, deux types de graphiques ont été choisis : Histogramme et Diagramme circulaire (Pie Chart). 
-Pour naviguer entre ces deux types de visualisation, un menu a été intégré permettant à l’utilisateur d’afficher les histogrammes des décès en 2020 par sexe (Homme, Femme, Total Homme & Femme) et également le focus Covid-19, le « Pie Chart » détaillant la répartition des maladies concomitantes des décès dont le covid 19 est la cause principale. 
+Pour naviguer entre ces deux types de visualisation, un menu a été intégré permettant à l’utilisateur d’afficher les histogrammes des décès en 2020 par sexe (Homme, Femme, Homme & Femme) et également un focus sur le Covid-19 via un « Pie Chart » détaillant la répartition des maladies concomitantes aux décès dont le covid 19 est la cause principale. 
 
 En matière de design et d’interactivité, il a été nécessaire d’identifier chaque cause de décès par un code couleur pour voir la variation mois par mois. En plus des indications des seuils de valeurs dans l’axe verticale de l’histogramme, le rendu visuel a été dynamisé par un curseur interactif pour afficher le nombre de décès pour chaque maladie selon le mois choisi. Le curseur permet aussi de cocher/décocher les maladies à afficher afin de mieux visualiser la cause de décès sur une année complète de janvier à décembre.
+
 
 # Visualisation et conclusion
  
  ![NB décès Homme](https://user-images.githubusercontent.com/104840450/188247145-6977c13c-225b-4a56-92fb-5c6a5cc433d8.png)
-Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition des causes classiques des décès (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) reste homogène tout au long de l’année 2020.  
+Cette visualisation démontre aisément en termes d’analyses des données, l’apparition d’une nouvelle cause de décès au printemps 2020.  En effet, la répartition en nombre des causes classiques des décès hors Covid-19 (maladies cardiovasculaires, cancers, maladies de l’appareil respiratoire, accidents et traumatismes) a été homogène tout au long de l’année 2020.    
 
 
-L’effet du confinement très efficace pour les maladies infectieuses a réduit drastiquement les décès par Covid-19, la surmortalité en automne et fin 2020 démontre la saisonnalité de la pandémie et l’apparition des nouveaux variant. 
-L’analyse du Pie Chart démontre que 96% des décès Covid19 sont souvent associés à des maladies concomitantes. 
+L’effet du confinement très efficace pour les maladies infectieuses a réduit drastiquement les décès Covid-19, la surmortalité en automne et fin 2020 démontre la saisonnalité de la pandémie et l’apparition de nouveaux variants. 
 
-En conclusion, cette visualisation s’adresse à toute personne intéressée par l’analyse des effets de la pandémie sur la mortalité et en générale connaitre les causes principales du décès. Elle peut être complété par une vision par canton et par classe d’âge. 
+L’analyse du Pie Chart démontre que 96% des décès Covid19 sont associés à des maladies concomitantes. 
+
+
+En conclusion, cette visualisation s’adresse à toute personne intéressée par l’analyse des effets de la pandémie sur la mortalité et plus généralement elle permet d’identifier les causes principales des décès en Suisse. Pour aller plus loin dans ce projet, cette visualisation peut être complétée par une vision par canton et par classe d’âge. 
 Ce projet a été une expérience très enrichissante pour moi en termes de traitement de données et de programmation. Rendre le contenu dynamique a été complexe mais indispensable pour la clarté de la visualisation et au-delà des graphiques illustrant l’objectif de ce projet, la vérification des structures de données reste l’étape importante de début jusqu’à la fin pour assurer la fiabilité du message véhiculé à travers de cette visualisation.
+
